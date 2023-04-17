@@ -90,7 +90,7 @@ def parseargs():
 		cdnscan.threads = 10
 		cdnscan.proxy = input("İP adresi Giriniz: ")
 		cdnscan.port = input("**Default=80 Port Girin: ")
-		cdnscan.output = input("Dosya adı: ")
+		cdnscan.output = input("İp Kaydedilecek Dosya adı: ")
 		cdnscan.main()
 		
 if __name__ =='__main__':	
